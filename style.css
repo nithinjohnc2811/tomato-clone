@@ -14,12 +14,12 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.3;
-  z-index: 0;
+  opacity: 0.1;
+  z-index: -1;
 }
 
 .header {
-  position
+  position:relative;
   background-color: rgb(236, 242, 242);
 }
 .navbar {
@@ -27,9 +27,17 @@ body::before {
   justify-content: space-around;
 }
 
-.bg-image {
-}
+
 .img {
-  height: auto;
-  width: 100%;
+  height: 400px;
+  width: 600px;
+  border-radius: 20px;
+}
+.discount-card{
+  position:fixed;
+  right:2rem;
+  bottom:2rem;
+  border:2px solid black;
+  border-radius: 20px;
+  padding:0.5rem;
 }
