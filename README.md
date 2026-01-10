@@ -1,1 +1,1 @@
-# tomato-clone
+This is the detaield explanation of my Code
