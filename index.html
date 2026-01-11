@@ -22,6 +22,7 @@
             <li><a href="#home">HOME</a></li>
             <li><a href="#rides">RIDES</a></li>
             <li><a href="#prices">PRICES</a></li>
+            <li><a href="#opening">OPENING TIMES</a></li>
             <li><a href="#healthandsafety">HEALTH AND SAFETY</a></li>
             <li><a href="#contact">CONTACT US</a></li>
           </ul>
@@ -30,15 +31,16 @@
     </header>
     <main>
       <div class="home" id="home">
-        <h3>Dive Into the Deep End of Adventure.</h3>
-        <p>
+        <h1>Dive Into the Deep End of Adventure.</h1>
+        <h2>
           From record-breaking slides to the ultimate lazy river—make a splash
           at AdventurePark.
-        </p>
+        </h2>
       </div>
 
       <div class="rides" id="rides">
-        <div>
+        <h1>Have a look at our popular rides here</h1>
+        <div class="rides-image-and-decs">
           <div class="image-text-container">
             <img class="img" src="./assets/image1.jpg" alt="first-image" />
             <div class="voting-text-button">
@@ -47,8 +49,8 @@
               <button class="button">NO</button>
             </div>
           </div>
-          <div>
-            <h4>The Shoreline Shaker</h4>
+          <div class="ride-description">
+            <h2>RIDE 1:The Shoreline Shaker</h2>
             <p>
               Experience the power of the tides without getting a drop of water
               on you! This high-intensity Airtime Thriller hurls riders 150 feet
@@ -61,17 +63,9 @@
           </div>
         </div>
 
-        <div>
-          <div class="image-text-container">
-            <img class="img" src="./assets/image2.jpg" alt="second-image" />
-            <div class="voting-text-button">
-              <p>Is this your favourite Ride?</p>
-              <button class="button">YES</button>
-              <button class="button">NO</button>
-            </div>
-          </div>
-          <div>
-            <h4>Neptune’s Revenge</h4>
+        <div class="rides-image-and-decs">
+          <div class="ride-description">
+            <h2>RIDE 2:Neptune’s Revenge</h2>
             <p>
               Are you brave enough to enter the God of the Sea's lair? This
               Trapdoor Drop Slide starts in a transparent capsule high above the
@@ -84,8 +78,17 @@
             <p>Thrill Level: Extreme</p>
             <p>Best For: 360-degree horizontal loop."</p>
           </div>
+          <div class="image-text-container">
+            <img class="img" src="./assets/image2.jpg" alt="second-image" />
+            <div class="voting-text-button">
+              <p>Is this your favourite Ride?</p>
+              <button class="button">YES</button>
+              <button class="button">NO</button>
+            </div>
+          </div>
+          
         </div>
-        <div>
+        <div class="rides-image-and-decs">
           <div class="image-text-container">
             <img class="img" src="./assets/image3.jpg" alt="third-image" />
             <div class="voting-text-button">
@@ -95,9 +98,9 @@
             </div>
           </div>
           
-          <div>
+          <div class="ride-description">
             
-            <h4>The Coral Carousel</h4>
+            <h2>RIDE 3:The Coral Carousel</h2>
             <p>
               A whimsical, hand-painted masterpiece for the whole family.
               Instead of horses, hop aboard giant seahorses, glowing jellyfish,
@@ -114,21 +117,10 @@
             
           </div>
         </div>
-        <div>
-          <div class="image-text-container">
-           <img class="img" src="./assets/image4.jpg" alt="fourth-image" />
-            <div class="voting-text-button">
-              <p>Is this your favourite Ride?</p>
-              <button class="button">YES</button>
-              <button class="button">NO</button>
-            </div>
-          </div>
+        <div class="rides-image-and-decs">
           
-          
-          
-        
-        <div>
-          <h4>The Manta Ray Racer</h4>
+        <div class="ride-description">
+          <h2>RIDE 4:The Manta Ray Racer</h2>
           <p>
             Grab a mat and challenge your friends to the ultimate seafloor
             sprint! This Multi-Lane Mat Racer features four side-by-side
@@ -138,8 +130,38 @@
           </p>
           <p>Type:This is a land ride</p>
           <p>Thrill Level: Medium</p>
-          <p>Competitive head-to-head racing</p>
+          <p>Best for:Competitive head-to-head racing</p>
         </div>
+        <div class="image-text-container">
+           <img class="img" src="./assets/image4.jpg" alt="fourth-image" />
+            <div class="voting-text-button">
+              <p>Is this your favourite Ride?</p>
+              <button class="button">YES</button>
+              <button class="button">NO</button>
+            </div>
+          </div>
+      </div>
+
+<div id="opening">
+        
+<div class="timing-card">
+  <h3>Opening Hours</h3>
+  
+  <div class="time-row">
+    <span>Tuesday - Friday</span>
+    <span>10:00 - 18:00</span>
+  </div>
+  
+  <div class="time-row">
+    <span>Saturday and Sunday</span>
+    <span>09:00 - 20:00</span>
+  </div>
+  
+  <div class="time-row closed">
+    <span>Monday</span>
+    <span>Closed</span>
+  </div>
+</div>
       </div>
 
       <div class="healthandsafety" id="healthandsafety">
@@ -155,10 +177,10 @@
         <h3>Hurry,Grab a 20% discount NOW</h3>
         <p>Offer ends soon!</p>
         <p>Copy the Coupon Code below</p>
-        <button>HURRY20</button>
+        <button class="button">HURRY20</button>
       </div>
     </main>
-  </body>
+
   <footer>
     <p>Adeventure Parks business ltd</p>
     <p>2026.All rights reserved</p>
@@ -177,4 +199,5 @@
       </li>
     </ul>
   </footer>
+    </body>
 </html>
