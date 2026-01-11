@@ -37,12 +37,18 @@ body::before {
   display: flex;
   justify-content: space-between;
   margin:1rem;
+} 
+/*common button styles */
+.button{
+
 }
 .navbar-list {
   display: flex;
   justify-content: space-around;
   list-style: none;
   font-size: large;
+  margin:1rem;
+  padding:1rem;
   
   
 }
@@ -54,6 +60,21 @@ body::before {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.image-text-container{
+  position:relative;
+}
+.voting-text-button{
+  position:absolute;
+  top:75%;
+  left:20%;
+  color:white;
+  font-size: larger;
+  font-weight: bold;
+  background-color:rgb(35, 144, 144);
+  border-radius: .25rem;
+  padding: 1rem;
+
+}
 
 .img {
   height: 400px;

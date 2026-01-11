@@ -11,14 +11,17 @@
       <div>
         <div class="logo-title">
           <h1>ADVENTURE PARK</h1>
-          <button>LOGIN</button>
+          <div>
+            <button class="button">JOIN</button>
+            <button class="button">LOGIN</button>
+          </div>
         </div>
 
         <div class="navbar">
           <ul class="navbar-list">
-            <li><a class="active" href="#home">HOME</a></li>
-            <li><a href="#about">RIDES</a></li>
-            <li><a href="#news">PRICES</a></li>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#rides">RIDES</a></li>
+            <li><a href="#prices">PRICES</a></li>
             <li><a href="#healthandsafety">HEALTH AND SAFETY</a></li>
             <li><a href="#contact">CONTACT US</a></li>
           </ul>
@@ -26,7 +29,7 @@
       </div>
     </header>
     <main>
-      <div class="home">
+      <div class="home" id="home">
         <h3>Dive Into the Deep End of Adventure.</h3>
         <p>
           From record-breaking slides to the ultimate lazy river—make a splash
@@ -34,69 +37,112 @@
         </p>
       </div>
 
-      <div class="rides">
+      <div class="rides" id="rides">
         <div>
-          <img class="img" src="./assets/image1.jpg" alt="first-image" />
-          <h4>The Shoreline Shaker</h4>
+          <div class="image-text-container">
+            <img class="img" src="./assets/image1.jpg" alt="first-image" />
+            <div class="voting-text-button">
+              <p>Is this your favourite Ride?</p>
+              <button class="button">YES</button>
+              <button class="button">NO</button>
+            </div>
+          </div>
+          <div>
+            <h4>The Shoreline Shaker</h4>
+            <p>
+              Experience the power of the tides without getting a drop of water
+              on you! This high-intensity Airtime Thriller hurls riders 150 feet
+              into the air before plunging them into a series of
+              stomach-churning "bunny hops" and 90-degree banked turns
+            </p>
+            <p>Type:This is a land ride</p>
+            <p>Thrill Level: Extreme</p>
+            <p>Best For: Adrenaline junkies who love "airtime."</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="image-text-container">
+            <img class="img" src="./assets/image2.jpg" alt="second-image" />
+            <div class="voting-text-button">
+              <p>Is this your favourite Ride?</p>
+              <button class="button">YES</button>
+              <button class="button">NO</button>
+            </div>
+          </div>
+          <div>
+            <h4>Neptune’s Revenge</h4>
+            <p>
+              Are you brave enough to enter the God of the Sea's lair? This
+              Trapdoor Drop Slide starts in a transparent capsule high above the
+              park. Catch your breath before the floor drops out, sending you
+              into a near-vertical freefall that transitions into a translucent
+              loop-the-loop. You’ll be a blur of speed until you hit the final
+              massive splashdown.
+            </p>
+            <p>Type:This is a water ride</p>
+            <p>Thrill Level: Extreme</p>
+            <p>Best For: 360-degree horizontal loop."</p>
+          </div>
+        </div>
+        <div>
+          <div class="image-text-container">
+            <img class="img" src="./assets/image3.jpg" alt="third-image" />
+            <div class="voting-text-button">
+              <p>Is this your favourite Ride?</p>
+              <button class="button">YES</button>
+              <button class="button">NO</button>
+            </div>
+          </div>
+          
+          <div>
+            
+            <h4>The Coral Carousel</h4>
+            <p>
+              A whimsical, hand-painted masterpiece for the whole family.
+              Instead of horses, hop aboard giant seahorses, glowing jellyfish,
+              and majestic sea turtles. As the carousel spins, a custom
+              orchestral soundtrack of "underwater" melodies plays, and hidden
+              bubble machines create a magical, immersive atmosphere.
+            </p>
+            <p>Type:This is a land ride</p>
+            <p>Thrill Level: Low/Family-Friendly</p>
+            <p>
+              Best For: Young explorers and those looking for a nostalgic photo
+              op."
+            </p>
+            
+          </div>
+        </div>
+        <div>
+          <div class="image-text-container">
+           <img class="img" src="./assets/image4.jpg" alt="fourth-image" />
+            <div class="voting-text-button">
+              <p>Is this your favourite Ride?</p>
+              <button class="button">YES</button>
+              <button class="button">NO</button>
+            </div>
+          </div>
+          
+          
+          
+        
+        <div>
+          <h4>The Manta Ray Racer</h4>
           <p>
-            Experience the power of the tides without getting a drop of water on
-            you! This high-intensity Airtime Thriller hurls riders 150 feet into
-            the air before plunging them into a series of stomach-churning
-            "bunny hops" and 90-degree banked turns
+            Grab a mat and challenge your friends to the ultimate seafloor
+            sprint! This Multi-Lane Mat Racer features four side-by-side
+            enclosed tubes that twist and turn in the dark before opening up
+            into a wide, downhill "wave" finish. Check the digital scoreboard at
+            the bottom to see who took the gold!
           </p>
           <p>Type:This is a land ride</p>
-          <p>Thrill Level: Extreme</p>
-          <p>Best For: Adrenaline junkies who love "airtime."</p>
+          <p>Thrill Level: Medium</p>
+          <p>Competitive head-to-head racing</p>
         </div>
-        <div>
-          <img class="img" src="./assets/image2.jpg" alt="second-image" />
-          <h4>Neptune’s Revenge</h4>
-          <p>
-            Are you brave enough to enter the God of the Sea's lair? This
-            Trapdoor Drop Slide starts in a transparent capsule high above the
-            park. Catch your breath before the floor drops out, sending you into
-            a near-vertical freefall that transitions into a translucent
-            loop-the-loop. You’ll be a blur of speed until you hit the final
-            massive splashdown.
-          </p>
-          <p>Type:This is a water ride</p>
-          <p>Thrill Level: Extreme</p>
-          <p>Best For: 360-degree horizontal loop."</p>
-        </div>
-        <div>
-          <img class="img" src="./assets/image3.jpg" alt="third-image" />
-          <h4>The Coral Carousel</h4>
-          <p>
-            A whimsical, hand-painted masterpiece for the whole family. Instead
-            of horses, hop aboard giant seahorses, glowing jellyfish, and
-            majestic sea turtles. As the carousel spins, a custom orchestral
-            soundtrack of "underwater" melodies plays, and hidden bubble
-            machines create a magical, immersive atmosphere.
-          </p>
-          <p>Type:This is a land ride</p>
-          <p>Thrill Level: Low/Family-Friendly</p>
-          <p>
-            Best For: Young explorers and those looking for a nostalgic photo
-            op."
-          </p>
-        </div>
-        <div>
-          <img class="img" src="./assets/image4.jpg" alt="fourth-image" />
-        </div>
-        <h4>The Manta Ray Racer</h4>
-        <p>
-          Grab a mat and challenge your friends to the ultimate seafloor sprint!
-          This Multi-Lane Mat Racer features four side-by-side enclosed tubes
-          that twist and turn in the dark before opening up into a wide,
-          downhill "wave" finish. Check the digital scoreboard at the bottom to
-          see who took the gold!
-        </p>
-        <p>Type:This is a land ride</p>
-        <p>Thrill Level: Medium</p>
-        <p>Competitive head-to-head racing</p>
       </div>
 
-      <div class="healthandsafety">
+      <div class="healthandsafety" id="healthandsafety">
         <p>
           "We take fun—and water—seriously.<br />
           Our state-of-the-art filtration system cycles and cleans <br />
@@ -106,9 +152,10 @@
         </p>
       </div>
       <div class="discount-card">
-        <h3>Grab a 20% discount</h3>
+        <h3>Hurry,Grab a 20% discount NOW</h3>
+        <p>Offer ends soon!</p>
         <p>Copy the Coupon Code below</p>
-        <button>DISCOUNT20</button>
+        <button>HURRY20</button>
       </div>
     </main>
   </body>
@@ -116,7 +163,7 @@
     <p>Adeventure Parks business ltd</p>
     <p>2026.All rights reserved</p>
 
-    <ul class="contact">
+    <ul class="contact" id="contact">
       <li>
         <a href="#" class="fa fa-twitter"></a>
       </li>
