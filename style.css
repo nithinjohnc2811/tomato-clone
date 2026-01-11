@@ -3,6 +3,13 @@
   padding: 0;
 }
 
+
+/*smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+ 
+/*a faded bg-image for the whole webapp */
 body::before {
   content:"";
   background-image: url("./assets/bg-image.png");
@@ -20,11 +27,31 @@ body::before {
 
 .header {
   position:relative;
-  background-color: rgb(236, 242, 242);
+  
+  color: rgb(35, 144, 144);
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.navbar {
+
+.logo-title{
+  display: flex;
+  justify-content: space-between;
+  margin:1rem;
+}
+.navbar-list {
   display: flex;
   justify-content: space-around;
+  list-style: none;
+  font-size: large;
+  
+  
+}
+
+.navbar-list a {
+  text-decoration: none;
+  color: rgb(35, 144, 144);
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
