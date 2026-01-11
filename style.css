@@ -111,6 +111,26 @@ body::before {
   width: 600px;
   border-radius: 20px;
 }
+
+
+.opening{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  margin:3rem;
+  padding: 3rem;
+  border:2px solid black;
+  gap:1rem;
+}
+.timing-card{
+  display:flex;
+  justify-content:center;
+}
+.time-row{
+  display: flex;
+  justify-content: space-around;
+  gap:1rem
+}
 .discount-card{
   display:flex;
   flex-direction: column;
@@ -122,4 +142,32 @@ body::before {
   border:2px solid black;
   border-radius: 20px;
   padding:0.5rem;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  
+}
+.social-media{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+
+.sm-logo-insta{
+  font-size:50px;
+  color:rgb(232, 125, 125);
+}
+.sm-logo-fb{
+  font-size:50px;
+  color:rgb(35, 40, 186);
+}
+.sm-logo-x{
+  font-size:50px;
+  color:rgb(26, 23, 35);
 }
