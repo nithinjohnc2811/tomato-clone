@@ -1,1 +1,1 @@
-This is the detaield explanation of my Code
+This is the detailed explanation of my Code.I have used flexbox for the layout and positioning of different elements including navbar,rides(image and text next to each other),opening times and the footer including social media icons.I have also used box-posiotning for all elements and positoning properties like fixed for the promo offer.
